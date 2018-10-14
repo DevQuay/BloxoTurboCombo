@@ -15,6 +15,7 @@
     <sprite>sprites\topr</sprite>
     <sprite>sprites\botr</sprite>
     <sprite>sprites\botl</sprite>
+    <sprite>sprites\transinanim</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,6 +32,7 @@
     <object>objects\obj_colrecbotl</object>
     <object>objects\obj_colrectopl</object>
     <object>objects\obj_colrectopr</object>
+    <object>objects\obj_intran</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>

@@ -60,6 +60,7 @@
     <instance objName="obj_colrecbotl" x="745" y="544" name="inst_33ED60BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_colrectopr" x="1019" y="258" name="inst_0CAD2652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obJ_optionsbutton" x="64" y="256" name="inst_B50FDFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intran" x="0" y="0" name="inst_7E881837" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

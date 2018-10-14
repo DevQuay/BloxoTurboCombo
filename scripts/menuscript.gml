@@ -4,8 +4,7 @@ lftsd = obj_leftside
 rtsd = obj_rightside
 btn1 = obj_playbutton
 btn2 = obJ_optionsbutton
-btnhspd = 10
-btnvspd = 10
+btnhspd = 15
 xdist = (lftsd.x + rtsd.sprite_width)
 offset = 75
 offset2 = 350
@@ -19,22 +18,9 @@ if colbox{
         rtsd.x = xdist-offset
         btn1.x = rtsd.x+offset2
         btn2.x = rtsd.x+offset2
-        /*if btn1.y < (rtsd.y + (btn1.sprite_height+5)){
-            btn1.y += btnvspd;
-        }
-        if btn1.y > (rtsd.y + (btn1.sprite_height+5)){
-            btn1.y = (rtsd.y + (btn1.sprite_height+5));
-        */
     }
 }
 if !colbox{
-    /*if btn1.y != rtsd.y{
-        btn1.y -= btnvspd
-    }
-    if btn1.y < rtsd.y{
-        btn1.y = rtsd.y
-    }*/
-    //if btn1.y = rtsd.y{
         if rtsd.x > lftsd.x{
             rtsd.x -=btnhspd
             btn1.x -=btnhspd
@@ -45,5 +31,4 @@ if !colbox{
             btn1.x = rtsd.x +offset2
             btn2.x = rtsd.x +offset2
         }
-    //}
 }
