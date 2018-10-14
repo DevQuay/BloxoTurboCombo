@@ -25,6 +25,7 @@
     <object>objects\obj_leftside</object>
     <object>objects\obj_rightside</object>
     <object>objects\obj_playbutton</object>
+    <object>objects\obJ_optionsbutton</object>
     <object>objects\menutrigger</object>
     <object>objects\obj_colrecbotr</object>
     <object>objects\obj_colrecbotl</object>
